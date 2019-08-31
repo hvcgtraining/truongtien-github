@@ -1,0 +1,76 @@
+.hotline__footer {
+  background-image: linear-gradient(to right, #193910, #455f3b, #72886a, #a2b29b, #d4dfd0); }
+  .hotline__footer .hotline__inner {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
+    .hotline__footer .hotline__inner .hotline__info {
+      width: 50%; }
+    .hotline__footer .hotline__inner .hotline__contact {
+      font-size: 1.8rem;
+      width: 50%;
+      text-align: right; }
+      .hotline__footer .hotline__inner .hotline__contact .btn__contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 4rem; }
+        .hotline__footer .hotline__inner .hotline__contact .btn__contact input {
+          text-align: center;
+          padding: 1rem 3.5rem;
+          color: white;
+          font-weight: 700;
+          background: #29582c;
+          border: none;
+          border-radius: 30px; }
+
+@media only screen and (max-width: 993px) {
+  .hotline__footer .hotline__inner {
+    flex-wrap: wrap; }
+    .hotline__footer .hotline__inner .hotline__info {
+      width: 100%;
+      text-align: center; }
+    .hotline__footer .hotline__inner .hotline__contact {
+      padding-top: 2rem;
+      width: 100%;
+      text-align: center; } }
+
+.footer__inner {
+  display: flex;
+  color: #193910;
+  padding: 4.5rem 0;
+  justify-content: space-around; }
+  .footer__inner .footer__big {
+    width: 40% !important; }
+  .footer__inner .footer__block {
+    width: 30%; }
+    .footer__inner .footer__block h5 {
+      font-size: 1.6rem;
+      padding-bottom: 2.5rem; }
+    .footer__inner .footer__block a {
+      display: block;
+      color: #193910;
+      text-decoration: none;
+      padding-bottom: 2rem; }
+      .footer__inner .footer__block a .fb {
+        color: #475993; }
+      .footer__inner .footer__block a .tw {
+        color: #55acee; }
+    .footer__inner .footer__block i {
+      color: red; }
+
+@media only screen and (max-width: 767px) {
+  .footer__inner {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+    .footer__inner .footer__big {
+      width: 100% !important; }
+    .footer__inner .footer__block {
+      padding-top: 2rem;
+      width: 50%; } }
+
+@media only screen and (max-width: 567px) {
+  .footer__inner .footer__block {
+    width: 100%; } }

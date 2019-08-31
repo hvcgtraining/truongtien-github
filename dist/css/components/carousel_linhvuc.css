@@ -1,0 +1,184 @@
+.box-carousel {
+  position: relative;
+  border: 1px solid red;
+  padding: 20px; }
+  .box-carousel .icon-text {
+    height: 100px; }
+    .box-carousel .icon-text .box-text {
+      flex-wrap: nowrap; }
+      .box-carousel .icon-text .box-text .icon img {
+        height: 100%;
+        max-height: 70px;
+        max-width: 80px; }
+      .box-carousel .icon-text .box-text .text {
+        font-size: 16px;
+        text-align: right;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 10px;
+        color: seagreen; }
+  .box-carousel .img-box img {
+    height: 180px; }
+  .box-carousel::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background-color: red; }
+  .box-carousel img {
+    width: 100%;
+    display: block; }
+
+.title-box {
+  margin: 15px 0; }
+  .title-box h1 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: seagreen; }
+  .title-box p {
+    font-size: 14px;
+    padding: 15px 250px;
+    text-align: center; }
+
+#owl-demo-slide .owl-nav,
+#owl-demo-2 .owl-nav {
+  color: #ff6666;
+  margin: 0;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  margin-top: -30px;
+  opacity: 1;
+  transition: all .3s ease; }
+  #owl-demo-slide .owl-nav .owl-prev,
+  #owl-demo-2 .owl-nav .owl-prev {
+    position: absolute;
+    left: -25px;
+    transform: translateY(-50%); }
+  #owl-demo-slide .owl-nav .owl-next,
+  #owl-demo-2 .owl-nav .owl-next {
+    position: absolute;
+    right: -25px;
+    transform: translateY(-50%); }
+  #owl-demo-slide .owl-nav i,
+  #owl-demo-2 .owl-nav i {
+    font-size: 24px; }
+
+#owl-demo-slide .owl-nav [class*=owl-]:hover,
+#owl-demo-2 .owl-nav [class*=owl-]:hover {
+  background: none !important;
+  color: #ff6666; }
+
+#owl-demo-slide .owl-nav [class*=owl-],
+#owl-demo-2 .owl-nav [class*=owl-] {
+  border: none;
+  outline: none; }
+
+#owl-demo-1 .box-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 500px; }
+
+#owl-demo-1 .owl-nav {
+  color: white;
+  margin: 0;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  margin-top: -30px;
+  opacity: 1;
+  transition: all .3s ease; }
+  #owl-demo-1 .owl-nav .owl-prev {
+    position: absolute;
+    left: 25px;
+    transform: translateY(-50%); }
+  #owl-demo-1 .owl-nav .owl-next {
+    position: absolute;
+    right: 25px;
+    transform: translateY(-50%); }
+  #owl-demo-1 .owl-nav i {
+    font-size: 32px; }
+
+#owl-demo-1 .owl-nav [class*=owl-]:hover {
+  background: none !important;
+  color: #ff6666;
+  transition: all .3s ease; }
+
+#owl-demo-1 .owl-nav [class*=owl-] {
+  border: none;
+  outline: none; }
+
+#owl-demo-1 .owl-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 15px; }
+  #owl-demo-1 .owl-dots .owl-dot span {
+    background: none !important;
+    border: 2px solid white;
+    background-color: none; }
+    #owl-demo-1 .owl-dots .owl-dot span:hover {
+      border: 2px solid red;
+      background-color: none; }
+  #owl-demo-1 .owl-dots .active span {
+    border: 2px solid red; }
+  #owl-demo-1 .owl-dots button {
+    outline: none; }
+
+#owl-demo-2 {
+  margin-bottom: 20px; }
+  #owl-demo-2 .box-image {
+    border: 1px solid seagreen;
+    overflow: hidden;
+    position: relative; }
+    #owl-demo-2 .box-image img {
+      width: 100%;
+      display: block;
+      height: 150px;
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+
+@media (max-width: 992px) {
+  .title-box p {
+    font-size: 14px;
+    padding: 15px 80px;
+    text-align: center; }
+  #owl-demo-1 .owl-dots {
+    margin-bottom: 7px; } }
+
+@media (max-width: 768px) {
+  #owl-demo-slide .owl-nav .owl-prev,
+  #owl-demo-2 .owl-nav .owl-prev {
+    position: absolute;
+    left: 0; }
+  #owl-demo-slide .owl-nav .owl-next,
+  #owl-demo-2 .owl-nav .owl-next {
+    position: absolute;
+    right: 0; }
+  .title-box p {
+    font-size: 14px;
+    padding: 15px 30px !important;
+    text-align: center; }
+  #owl-demo-1 .owl-dots {
+    margin-bottom: 0; } }
+
+@media (max-width: 576px) {
+  .title-box p {
+    font-size: 14px;
+    padding: 15px !important;
+    text-align: center; }
+  #owl-demo-1 .owl-dots {
+    margin-bottom: -5px; } }
+
+@media only screen and (max-width: 767px) {
+  .slider-padding {
+    padding-top: 7rem; } }

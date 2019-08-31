@@ -1,0 +1,59 @@
+.tituc {
+  background: #e7292b;
+  padding: 4rem 0;
+  margin-top: 4rem; }
+  .tituc h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+    padding-bottom: 4rem; }
+  .tituc .tintuc__inner {
+    display: flex;
+    flex-wrap: wrap; }
+    .tituc .tintuc__inner .tintuc-big__block {
+      width: 40%;
+      position: relative; }
+      .tituc .tintuc__inner .tintuc-big__block .tintuc__img {
+        height: 100%;
+        width: 100%; }
+        .tituc .tintuc__inner .tintuc-big__block .tintuc__img img {
+          width: 100%;
+          height: 100%; }
+      .tituc .tintuc__inner .tintuc-big__block .tintuc__content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem 2rem;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 1.2rem; }
+    .tituc .tintuc__inner .tintuc-small__block {
+      width: 60%;
+      display: flex; }
+      .tituc .tintuc__inner .tintuc-small__block .tintuc-sm__block {
+        width: 50%;
+        padding-left: 3.5rem; }
+        .tituc .tintuc__inner .tintuc-small__block .tintuc-sm__block .tintuc-sm__img {
+          width: 100%;
+          height: 60%; }
+          .tituc .tintuc__inner .tintuc-small__block .tintuc-sm__block .tintuc-sm__img img {
+            width: 100%;
+            height: 100%; }
+        .tituc .tintuc__inner .tintuc-small__block .tintuc-sm__block .tintuc-sm__content {
+          color: white;
+          font-size: 1.2rem; }
+
+@media only screen and (max-width: 993px) {
+  .tintuc-big__block {
+    width: 100% !important; }
+  .tintuc-small__block {
+    padding-top: 2rem;
+    width: 100% !important;
+    justify-content: space-between; }
+    .tintuc-small__block .tintuc-sm__block {
+      width: 49% !important;
+      padding: 0 !important; } }
+
+.lastline {
+  padding-bottom: 2.5rem; }
