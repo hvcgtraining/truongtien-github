@@ -801,7 +801,8 @@ body, td, th, input, button {
   margin-bottom: 1rem;
   padding: 1rem 0;
   z-index: 9999;
-  background: white; }
+  background: white;
+  position: relative; }
   .header .wrapper-header {
     display: flex; }
     .header .wrapper-header .logo {
@@ -1167,6 +1168,16 @@ body, td, th, input, button {
 #owl-demo-2 .owl-nav [class*=owl-] {
   border: none;
   outline: none; }
+
+@media only screen and (max-width: 1200px) {
+  #owl-demo-slide .owl-nav .owl-prev,
+  #owl-demo-2 .owl-nav .owl-prev {
+    position: absolute;
+    left: 0px !important; }
+  #owl-demo-slide .owl-nav .owl-next,
+  #owl-demo-2 .owl-nav .owl-next {
+    position: absolute;
+    right: 0px !important; } }
 
 #owl-demo-1 .box-slide img {
   display: block;

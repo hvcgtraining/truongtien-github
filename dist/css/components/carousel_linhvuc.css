@@ -77,6 +77,16 @@
   border: none;
   outline: none; }
 
+@media only screen and (max-width: 1200px) {
+  #owl-demo-slide .owl-nav .owl-prev,
+  #owl-demo-2 .owl-nav .owl-prev {
+    position: absolute;
+    left: 0px !important; }
+  #owl-demo-slide .owl-nav .owl-next,
+  #owl-demo-2 .owl-nav .owl-next {
+    position: absolute;
+    right: 0px !important; } }
+
 #owl-demo-1 .box-slide img {
   display: block;
   width: 100%;

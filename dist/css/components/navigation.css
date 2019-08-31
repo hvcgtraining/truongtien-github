@@ -2,7 +2,8 @@
   margin-bottom: 1rem;
   padding: 1rem 0;
   z-index: 9999;
-  background: white; }
+  background: white;
+  position: relative; }
   .header .wrapper-header {
     display: flex; }
     .header .wrapper-header .logo {
