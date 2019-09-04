@@ -58,5 +58,16 @@ $(document).ready(function () {
     nav: true,
     dots: true,
     navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+  }); //tuyendung
+
+  var owl2 = $("#owl-demo-td");
+  owl2.owlCarousel({
+    navigation: true,
+    items: 1,
+    loop: true,
+    smartSpeed: 450,
+    nav: false,
+    dots: true,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
   });
 });

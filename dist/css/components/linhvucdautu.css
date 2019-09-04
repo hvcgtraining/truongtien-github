@@ -1,0 +1,96 @@
+.slide-linhvuc {
+  margin-bottom: 3rem; }
+  .slide-linhvuc .container .owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%); }
+    .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot span {
+      background-color: transparent;
+      border: 1px solid #fff; }
+    .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot:focus {
+      outline: none; }
+    .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot.active span {
+      background-color: transparent;
+      border: 1px solid red; }
+
+.main-lvdt .wrapper-lvdt .title {
+  margin: 3rem 0; }
+  .main-lvdt .wrapper-lvdt .title h1 {
+    color: red;
+    font-weight: 300;
+    font-size: 3.5rem; }
+
+.main-lvdt .wrapper-lvdt .content p {
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  color: #666; }
+
+.main-lvdt .wrapper-lvdt .content img {
+  width: 100%;
+  margin: 1.5rem 0; }
+
+.lvkhac .wrapper-lvk .title h1 {
+  color: #fbd0e0;
+  font-weight: 300;
+  font-size: 3.5rem; }
+
+.lvkhac .wrapper-lvk .content .img-content {
+  margin: 1.5rem 0;
+  position: relative; }
+  .lvkhac .wrapper-lvk .content .img-content:before {
+    content: '';
+    display: block;
+    padding: 43%; }
+  .lvkhac .wrapper-lvk .content .img-content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.lvkhac .wrapper-lvk .content p {
+  margin: 1.5rem 0;
+  font-size: 1.8rem;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  -webkit-line-clamp: 2;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical; }
+
+.lvkhac .wrapper-lvk .content a {
+  margin: 1.5rem 0;
+  display: block;
+  background-color: #e7292b;
+  color: #fff;
+  text-decoration: none;
+  padding: .7rem 0;
+  transition: all .3s ease; }
+  .lvkhac .wrapper-lvk .content a:hover, .lvkhac .wrapper-lvk .content a:focus {
+    outline: none;
+    background-color: #c02426;
+    transition: all .3s ease; }
+
+.text-center {
+  text-align: center; }
+
+.px-3 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+@media only screen and (max-width: 991px) {
+  .slide-linhvuc .container .owl-carousel .owl-dots {
+    bottom: 0 !important; } }
+
+@media only screen and (max-width: 568px) {
+  .lvkhac .wrapper-lvk .title h1 {
+    font-size: 3rem !important; }
+  .main-lvdt .wrapper-lvdt .title h1 {
+    font-size: 3rem !important; } }

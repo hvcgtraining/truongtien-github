@@ -1,0 +1,95 @@
+.img-box-title {
+  position: relative;
+  margin: 20px 0; }
+  .img-box-title img {
+    width: 100%;
+    display: block; }
+  .img-box-title h3 {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 5px 0;
+    color: red;
+    text-transform: uppercase;
+    white-space: nowrap; }
+  .img-box-title .text-bg {
+    background-color: seagreen;
+    position: absolute;
+    left: 0;
+    top: 50%; }
+    .img-box-title .text-bg::before {
+      position: absolute;
+      content: '';
+      border-width: 26px 0px 26px 20px;
+      border-style: solid;
+      border-color: transparent tomato;
+      left: 102%;
+      z-index: 5; }
+    .img-box-title .text-bg::after {
+      position: absolute;
+      content: '';
+      border-width: 26px 0px 26px 20px;
+      border-style: solid;
+      border-color: transparent red;
+      top: 0;
+      left: 104%;
+      z-index: 4; }
+    .img-box-title .text-bg h1 {
+      color: white;
+      text-transform: uppercase;
+      padding: 5px 3px 5px 0px;
+      font-family: 'Oswald', sans-serif;
+      white-space: nowrap;
+      z-index: 10;
+      font-size: 28px;
+      position: relative;
+      left: 9px; }
+      .img-box-title .text-bg h1::before {
+        position: absolute;
+        content: '';
+        border-width: 26px 0px 26px 20px;
+        border-style: solid;
+        border-color: transparent seagreen;
+        z-index: -1;
+        left: 95%;
+        top: 0; }
+
+.text-info {
+  margin: 20px 0;
+  padding-left: 25px;
+  text-align: justify; }
+  .text-info p {
+    font-size: 16px;
+    color: #444; }
+
+.img-task {
+  position: relative;
+  margin: 15px 0; }
+  .img-task img {
+    display: block;
+    width: 100%;
+    height: 270px; }
+  .img-task .text-task {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f34426;
+    color: white;
+    font-size: 14px;
+    font-weight: 400; }
+
+.mgx-15 {
+  margin: 0 -15px; }
+
+.pdx-15 {
+  padding: 0 15px; }
+
+@media (max-width: 768px) {
+  .img-box-title img {
+    width: 100%; }
+  .text-info {
+    padding: 0; } }

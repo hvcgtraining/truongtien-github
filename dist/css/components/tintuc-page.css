@@ -1,0 +1,186 @@
+.noibat__block {
+  padding: 4rem 0; }
+  .noibat__block h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: red;
+    font-size: 3.6rem; }
+
+.noibat__inner {
+  display: flex;
+  height: 500px;
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  .noibat__inner .block__bottom {
+    margin-top: 1rem; }
+  .noibat__inner .noibat-big__block {
+    width: 50%;
+    margin-right: 2rem; }
+  .noibat__inner .noibat-smail__block {
+    width: 50%; }
+
+.noibat-big__block {
+  position: relative; }
+  .noibat-big__block .noibat__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0; }
+    .noibat-big__block .noibat__img img {
+      width: 100%;
+      height: 100%; }
+  .noibat-big__block .noibat__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1.4rem;
+    padding: 2rem;
+    text-align: justify; }
+
+.noibat-smail__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch; }
+  .noibat-smail__block .noibat-mall-content__block {
+    width: 49%;
+    position: relative; }
+    .noibat-smail__block .noibat-mall-content__block .noibat-mall-content__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+      .noibat-smail__block .noibat-mall-content__block .noibat-mall-content__img img {
+        width: 100%;
+        height: 100%; }
+    .noibat-smail__block .noibat-mall-content__block .noibat-mall-content__content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      font-size: 1.4rem;
+      padding: 2rem;
+      text-align: justify; }
+
+@media only screen and (max-width: 1170px) {
+  .noibat__inner {
+    flex-wrap: wrap;
+    height: 1200px !important; }
+  .noibat-big__block {
+    width: 100% !important;
+    margin-right: 0rem !important; }
+  .noibat-smail__block {
+    margin-top: 1rem;
+    width: 100% !important; } }
+
+@media only screen and (max-width: 567px) {
+  .noibat__inner {
+    flex-wrap: wrap;
+    height: 1100px !important; }
+  .noibat-mall-content__block {
+    width: 100% !important; }
+  .block__bottom {
+    margin-top: 0rem !important; } }
+
+.noibo__block {
+  background: #e7292b; }
+  .noibo__block h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 3rem;
+    font-size: 3.6rem; }
+
+.noibo__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .noibo__inner .noibo__block {
+    width: 49%;
+    padding: 2rem 0;
+    color: white; }
+    .noibo__inner .noibo__block .noibo__img {
+      height: 300px; }
+      .noibo__inner .noibo__block .noibo__img img {
+        width: 100%;
+        height: 100%; }
+
+.noibo-btn-showmore {
+  display: inline-block !important;
+  text-align: center;
+  color: #e7292b;
+  background: white;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  border: 1px solid #e7292b;
+  transition: 0.3s; }
+  .noibo-btn-showmore:hover {
+    color: white;
+    background: #e7292b;
+    border: 1px solid white;
+    transition: 0.3s; }
+
+.btn-center {
+  text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .noibo__block {
+    width: 100% !important; }
+    .noibo__block .noibo__img {
+      height: auto !important; }
+      .noibo__block .noibo__img img {
+        height: auto !important; } }
+
+.nganh__block h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #e7292b;
+  padding-top: 3rem;
+  font-size: 3.6rem; }
+
+.nganh__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .nganh__inner .nganh__block {
+    width: 30%;
+    padding: 2rem 0;
+    color: black; }
+    .nganh__inner .nganh__block .nganh__img {
+      height: 200px; }
+      .nganh__inner .nganh__block .nganh__img img {
+        width: 100%;
+        height: 100%; }
+
+.nganh-btn-showmore {
+  display: inline-block !important;
+  text-align: center;
+  color: white;
+  background: #e7292b;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  border: 1px solid #e7292b;
+  transition: 0.3s; }
+  .nganh-btn-showmore:hover {
+    color: #e7292b;
+    background: white;
+    border: 1px solid #e7292b;
+    transition: 0.3s; }
+
+.btn-center {
+  text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .nganh__block {
+    width: 100% !important; }
+    .nganh__block .nganh__img {
+      height: auto !important; }
+      .nganh__block .nganh__img img {
+        height: auto !important; } }
