@@ -191,7 +191,9 @@
     padding: 15px 30px !important;
     text-align: center; }
   #owl-demo-1 .owl-dots {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  #owl-demo-1 .owl-nav {
+    display: none; } }
 
 @media (max-width: 576px) {
   .title-box p {

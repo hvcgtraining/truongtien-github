@@ -36,7 +36,8 @@
   text-decoration: none;
   transition: 0.3s;
   font-size: 1.4rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  border: 1px solid transparent; }
   .btn-showmore:hover {
     color: red;
     background: white;

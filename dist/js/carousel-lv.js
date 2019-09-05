@@ -69,5 +69,26 @@ $(document).ready(function () {
     nav: false,
     dots: true,
     navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+  }); // Lĩnh vực và  lĩnh vực chi tiết
+
+  var owlv = $("#owl-slide-lv");
+  owlv.owlCarousel({
+    navigation: true,
+    items: 1,
+    loop: true,
+    smartSpeed: 450,
+    nav: false,
+    dots: true,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+  });
+  var owlvct = $("#owl-slide-lv-chitiet");
+  owlvct.owlCarousel({
+    navigation: true,
+    items: 1,
+    loop: true,
+    smartSpeed: 450,
+    nav: false,
+    dots: true,
+    navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
   });
 });

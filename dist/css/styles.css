@@ -1284,7 +1284,9 @@ body, td, th, input, button {
     padding: 15px 30px !important;
     text-align: center; }
   #owl-demo-1 .owl-dots {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  #owl-demo-1 .owl-nav {
+    display: none; } }
 
 @media (max-width: 576px) {
   .title-box p {
@@ -1585,7 +1587,8 @@ body, td, th, input, button {
   text-decoration: none;
   transition: 0.3s;
   font-size: 1.4rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  border: 1px solid transparent; }
   .btn-showmore:hover {
     color: red;
     background: white;
@@ -1734,7 +1737,13 @@ body, td, th, input, button {
   .noibat-mall-content__block {
     width: 100% !important; }
   .block__bottom {
-    margin-top: 0rem !important; } }
+    margin-top: 0rem !important; }
+  .noibat-smail__block {
+    margin-top: 2rem !important; }
+  .noibat-mall-content__content {
+    padding: 1rem !important; }
+  .noibat-mall-content__block {
+    margin-bottom: 2rem !important; } }
 
 .noibo__block {
   background: #e7292b; }
@@ -1832,35 +1841,35 @@ body, td, th, input, button {
       .nganh__block .nganh__img img {
         height: auto !important; } }
 
-.slide-linhvuc {
+.slide-linhvuc-chitiet, .slide-linhvuc {
   margin-bottom: 3rem; }
-  .slide-linhvuc .container .owl-carousel .owl-dots {
+  .slide-linhvuc-chitiet .container .owl-carousel .owl-dots, .slide-linhvuc .container .owl-carousel .owl-dots {
     position: absolute;
     bottom: 3rem;
     left: 50%;
     transform: translateX(-50%); }
-    .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot span {
+    .slide-linhvuc-chitiet .container .owl-carousel .owl-dots .owl-dot span, .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot span {
       background-color: transparent;
       border: 1px solid #fff; }
-    .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot:focus {
+    .slide-linhvuc-chitiet .container .owl-carousel .owl-dots .owl-dot:focus, .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot:focus {
       outline: none; }
-    .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot.active span {
+    .slide-linhvuc-chitiet .container .owl-carousel .owl-dots .owl-dot.active span, .slide-linhvuc .container .owl-carousel .owl-dots .owl-dot.active span {
       background-color: transparent;
       border: 1px solid red; }
 
-.main-lvdt .wrapper-lvdt .title {
+.main-lvdt-chitiet .wrapper-lvdt-chitiet .title {
   margin: 3rem 0; }
-  .main-lvdt .wrapper-lvdt .title h1 {
+  .main-lvdt-chitiet .wrapper-lvdt-chitiet .title h1 {
     color: red;
     font-weight: 300;
     font-size: 3.5rem; }
 
-.main-lvdt .wrapper-lvdt .content p {
+.main-lvdt-chitiet .wrapper-lvdt-chitiet .content p {
   margin: 1.5rem 0;
   font-size: 1.6rem;
   color: #666; }
 
-.main-lvdt .wrapper-lvdt .content img {
+.main-lvdt-chitiet .wrapper-lvdt-chitiet .content img {
   width: 100%;
   margin: 1.5rem 0; }
 
@@ -1912,12 +1921,56 @@ body, td, th, input, button {
   text-align: center; }
 
 .px-3 {
-  padding-left: 15px !important;
-  padding-right: 15px !important; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .row {
   margin-left: -15px;
   margin-right: -15px; }
+
+.box-content:nth-child(even) .flex-direction {
+  flex-direction: row-reverse; }
+
+.main-linhvucdautu .wrapper-linhvucdautu .box-content {
+  box-shadow: 3px 5px 5px 0 #afaaaa;
+  margin: 4rem 0;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  overflow: hidden; }
+  .main-linhvucdautu .wrapper-linhvucdautu .box-content .img-content {
+    height: 350px; }
+    .main-linhvucdautu .wrapper-linhvucdautu .box-content .img-content img {
+      width: 100%;
+      height: 100%; }
+  .main-linhvucdautu .wrapper-linhvucdautu .box-content .content {
+    padding: 3rem 1.5rem; }
+    .main-linhvucdautu .wrapper-linhvucdautu .box-content .content .title h1 {
+      font-size: 2.2rem;
+      font-weight: 300; }
+      .main-linhvucdautu .wrapper-linhvucdautu .box-content .content .title h1 span {
+        font-size: 4rem;
+        font-weight: 300; }
+    .main-linhvucdautu .wrapper-linhvucdautu .box-content .content p {
+      font-size: 1.6rem;
+      margin: 1rem 0;
+      margin-bottom: 2rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 20px;
+      -webkit-line-clamp: 4;
+      height: 80px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical; }
+    .main-linhvucdautu .wrapper-linhvucdautu .box-content .content a {
+      padding: .7rem 4rem;
+      background-color: #e7292b;
+      color: #fff;
+      text-decoration: none;
+      transition: all .3s ease; }
+      .main-linhvucdautu .wrapper-linhvucdautu .box-content .content a:hover, .main-linhvucdautu .wrapper-linhvucdautu .box-content .content a:focus {
+        outline: none;
+        background-color: #c02426;
+        transition: all .3s ease; }
 
 @media only screen and (max-width: 991px) {
   .slide-linhvuc .container .owl-carousel .owl-dots {
@@ -1927,7 +1980,13 @@ body, td, th, input, button {
   .lvkhac .wrapper-lvk .title h1 {
     font-size: 3rem !important; }
   .main-lvdt .wrapper-lvdt .title h1 {
-    font-size: 3rem !important; } }
+    font-size: 3rem !important; }
+  .main-linhvucdautu .wrapper-linhvucdautu .box-content .img-content {
+    max-height: 350px !important;
+    height: 100% !important; } }
+
+.align-center {
+  align-items: center; }
 
 .img-box-title {
   position: relative;
@@ -1989,7 +2048,6 @@ body, td, th, input, button {
 
 .text-info {
   margin: 20px 0;
-  padding-left: 25px;
   text-align: justify; }
   .text-info p {
     font-size: 16px;
@@ -2012,9 +2070,6 @@ body, td, th, input, button {
     color: white;
     font-size: 14px;
     font-weight: 400; }
-
-.pdx-15 {
-  padding: 0 15px; }
 
 @media (max-width: 768px) {
   .img-box-title img {
