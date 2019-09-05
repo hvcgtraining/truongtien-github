@@ -78,8 +78,8 @@
   text-align: center; }
 
 .px-3 {
-  padding-left: 15px !important;
-  padding-right: 15px !important; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .row {
   margin-left: -15px;

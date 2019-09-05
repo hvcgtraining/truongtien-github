@@ -1284,7 +1284,9 @@ body, td, th, input, button {
     padding: 15px 30px !important;
     text-align: center; }
   #owl-demo-1 .owl-dots {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  #owl-demo-1 .owl-nav {
+    display: none; } }
 
 @media (max-width: 576px) {
   .title-box p {
@@ -1585,7 +1587,8 @@ body, td, th, input, button {
   text-decoration: none;
   transition: 0.3s;
   font-size: 1.4rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  border: 1px solid transparent; }
   .btn-showmore:hover {
     color: red;
     background: white;
@@ -1734,7 +1737,13 @@ body, td, th, input, button {
   .noibat-mall-content__block {
     width: 100% !important; }
   .block__bottom {
-    margin-top: 0rem !important; } }
+    margin-top: 0rem !important; }
+  .noibat-smail__block {
+    margin-top: 2rem !important; }
+  .noibat-mall-content__content {
+    padding: 1rem !important; }
+  .noibat-mall-content__block {
+    margin-bottom: 2rem !important; } }
 
 .noibo__block {
   background: #e7292b; }
@@ -1912,8 +1921,8 @@ body, td, th, input, button {
   text-align: center; }
 
 .px-3 {
-  padding-left: 15px !important;
-  padding-right: 15px !important; }
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .row {
   margin-left: -15px;
@@ -1989,7 +1998,6 @@ body, td, th, input, button {
 
 .text-info {
   margin: 20px 0;
-  padding-left: 25px;
   text-align: justify; }
   .text-info p {
     font-size: 16px;
@@ -2012,9 +2020,6 @@ body, td, th, input, button {
     color: white;
     font-size: 14px;
     font-weight: 400; }
-
-.pdx-15 {
-  padding: 0 15px; }
 
 @media (max-width: 768px) {
   .img-box-title img {

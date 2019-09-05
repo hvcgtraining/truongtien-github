@@ -87,7 +87,13 @@
   .noibat-mall-content__block {
     width: 100% !important; }
   .block__bottom {
-    margin-top: 0rem !important; } }
+    margin-top: 0rem !important; }
+  .noibat-smail__block {
+    margin-top: 2rem !important; }
+  .noibat-mall-content__content {
+    padding: 1rem !important; }
+  .noibat-mall-content__block {
+    margin-bottom: 2rem !important; } }
 
 .noibo__block {
   background: #e7292b; }
