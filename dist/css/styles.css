@@ -1912,8 +1912,8 @@ body, td, th, input, button {
   text-align: center; }
 
 .px-3 {
-  padding-left: 15px;
-  padding-right: 15px; }
+  padding-left: 15px !important;
+  padding-right: 15px !important; }
 
 .row {
   margin-left: -15px;
@@ -2012,9 +2012,6 @@ body, td, th, input, button {
     color: white;
     font-size: 14px;
     font-weight: 400; }
-
-.mgx-15 {
-  margin: 0 -15px; }
 
 .pdx-15 {
   padding: 0 15px; }
